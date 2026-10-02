@@ -39,6 +39,11 @@ I'm currently using [all four of these scanners](https://github.com/johnbillion/
 * [Moat by Laravel](https://github.com/laravel/moat)  
   Moat reviews the security posture of your GitHub organization and repositories, then surfaces recommendations to consider. Moat covers checks across two-factor authentication, branch protection, signed commits, secret scanning, Dependabot alerts, workflow permissions, pinned actions, repository webhooks, and others.
 
+## Artifact verification
+
+* [Verify Frozen Artifacts](https://github.com/wu350891451-jpg/verify-frozen-artifacts)  
+  Fails a workflow when a manifest or AI-agent evidence packet declares a SHA256 that no longer matches the artifact bytes. It is used in the maintainer's public [Jacky](https://github.com/wu350891451-jpg/Jacky/actions/workflows/verify.yml) repository.
+
 ## Workflow and runner hardening
 
 * [Harden-Runner](https://github.com/step-security/harden-runner)  
